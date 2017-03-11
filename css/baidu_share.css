@@ -1,0 +1,6 @@
+/* 自定义分享样式 */
+.baidu_share{position:absolute;right:60px;bottom:20px;width:60px;height:20px;}
+.bdsharebuttonbox{width:60px;height:20px;overflow:hidden;}
+.bdsharebuttonbox a{display:inline-block;padding-left:20px;width:40px;height:20px;line-height:20px;overflow:hidden;font-size:14px;cursor:pointer;color:#969696;background:url(../images/pc/share.png) no-repeat 0px 2px;}
+
+

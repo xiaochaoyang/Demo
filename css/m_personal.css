@@ -1,0 +1,139 @@
+/*个人中心 头部*/
+.acchomehd{position:relative;height:320px;overflow:hidden;background:url(../images/personal_bg.png) no-repeat 0 0 / cover;}
+.acchomehd .avatar{position:absolute;left:30px;top:140px;width:110px;height:110px;border:4px solid #fff;border-radius:50%;}
+.acchomehd .pinfo{position:absolute;left:166px;top:140px;width:430px;height:110px;}
+.acchomehd .pinfo h1{line-height:50px;color:#fff;}
+.acchomehd .pinfo h1 a{color:#fff;}
+.acchomehd .pinfo .ptag{padding:6px 0;height:60px;overflow:hidden;}
+.acchomehd .pinfo .ptag i.vtag{float:left;display:block;margin:0 20px 10px 0;width:120px;height:25px;overflow:hidden;border-radius:25px;font-size:20px;text-align:center;background:#ffbe62;}
+.acchomehd .pinfo .ptag i.vtag i{float:left;width:60px;height:25px;line-height:25px;color:#fff;}
+.acchomehd .pinfo .ptag i.vtag i:first-child{display:inline-block;background:#ff931b;}
+.acchomehd a.more{position:absolute;right:30px;bottom:65px;width:100px;height:110px;overflow:hidden;text-indent:-999px;background:url(../images/more_wbtn.png) no-repeat right center / auto 30px;}
+/*个人中心 提示完善孩子信息*/
+.perinfo{padding-left:30px;height:60px;line-height:60px;color:#fff;font-size:26px;background:#4f8c19 url(../images/more_wbtn.png) no-repeat 705px center / auto 30px;}
+/*个人中心 我的订单导航*/
+.per_orders{background:#fff;border-top:1px solid #eee;border-bottom:1px solid #eee;}
+.per_orders .titlebar{padding:0 30px;height:80px;line-height:80px;border-bottom:1px solid #eee;}
+.per_orders .titlebar .more{float:right;padding-right:20px;color:#777;font-size:24px;background:url(../images/ic_more.png) no-repeat right center / 12px auto;}
+.per_orders ul{padding:20px 0;width:100%;overflow:hidden;}
+.per_orders li{float:left;box-sizing:border-box;width:25%;height:120px;border-right:1px solid #eee;}
+.per_orders li:last-child{border-right:none;}
+.per_orders li a{position:relative;display:block;padding-top:80px;height:40px;line-height:40px;text-align:center;font-size:24px;}
+.per_orders li a i{position:absolute;top:20px;left:50%;transform:translateX(-50%);display:inline-block;width:60px;height:60px;}
+.per_orders li a i.meod1{background:url(../images/daifukuan.png) no-repeat center center / 50px auto}
+.per_orders li a i.meod2{background:url(../images/weichuxing.png) no-repeat center center / 50px auto}
+.per_orders li a i.meod3{background:url(../images/daipingjia.png) no-repeat center center / 50px auto}
+.per_orders li a i.meod4{background:url(../images/tuikuandingdan.png) no-repeat center center / 50px auto}
+.per_orders li a em{position:absolute;top:15px;left:50%;transform:translateX(-50%);margin-left:20px;width:24px;line-height:24px;border:2px solid #fe7e60;border-radius:50%;color:#fe7e60;font-size:18px;background:#fff;}
+/*个人中心 我的账户数据*/
+.account{margin-top:20px;background:#fff;border-top:1px solid #eee;border-bottom:1px solid #eee;}
+.account ul{padding:20px 0;width:100%;overflow:hidden;}
+.account li{float:left;box-sizing:border-box;width:33%;height:110px;border-right:1px solid #eee;text-align:center;}
+.account li:last-child{border-right:none;}
+.account li h3{margin-top:20px;}
+.account li .num{margin-top:5px;color:#f75934;text-align:center;}
+.account li .num em{display:inline-block;width:10px;height:10px;vertical-align:top;background:#f75934;border-radius:10px;}
+/*个人中心 相关导航*/
+.plist{margin-top:20px;background:#fff;border-top:1px solid #eee;}
+.plist li{height:80px;line-height:80px;border-bottom:1px solid #eee;background:url(../images/graymore.png) no-repeat 710px center / 14px auto;}
+.plist li a{position:relative;display:block;padding-left:90px;font-size:28px;background:url(../images/icon_fav.png) no-repeat 24px center / auto 30px}
+.plist li a.fav{background-image:url(../images/icon_fav.png);}
+.plist li a.travler{background-image:url(../images/icon_travler.png);}
+.plist li a.share{background-image:url(../images/icon_share.png);}
+.plist li a.business{background-image:url(../images/icon_business.png);}
+.plist li a.about{background-image:url(../images/icon_about.png);}
+.plist li a .numtag{position:absolute;top:25px;right:70px;line-height:30px;color:#f75934;}
+/*个人中心 退出账号*/
+.tui{margin-top:50px;line-height:100px;font-size:34px;text-align:center;background:#f75934;}
+.tui a{display:block;color:#fff;}
+/*订单列表 （待付款，未出行等订单列表）*/
+.orders_tab{}
+.orders_head{height:84px;background:#fff;}
+.orders_head ul{width:100%;overflow:hidden;}
+.orders_head li{float:left;width:20%;height:80px;line-height:80px;text-align:center;cursor:pointer;border-bottom:4px solid #fff}
+.orders_head li.on{color:#8bc53f;border-bottom-color:#8bc53f;}
+.orders_body{}
+.orders_body li{margin-bottom:20px;background:#fff;border-top:1px solid #e7e7e7;}
+.orders_body li .ohd{padding:0 30px;height:80px;line-height:80px;border-bottom:1px solid #eee;color:#f75934;}
+.orders_body li .ohd i.paymoney{float:right;display:inline-block;margin-top:25px;padding:0 4px 0 16px;height:30px;line-height:30px;background:url(../images/money.png) no-repeat 0 0 / 14px auto;}
+.orders_body li .obd{position:relative;padding:20px 30px 20px 190px;height:130px;border-bottom:1px solid #eee;overflow:hidden;}
+.orders_body li .obd img{position:absolute;top:20px;left:30px;width:130px;height:130px;}
+.orders_body li .obd h2{height:40px;line-height:40px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.orders_body li .obd p{padding-top:15px;height:30px;line-height:30px;font-size:26px;color:#999;}
+.orders_body li .obd p span{padding-right:10px;}
+.orders_body li .ofd{height:76px;line-height:76px;border-bottom:1px solid #eee;overflow:hidden;text-align:center;}
+.orders_body li .ofd a{box-sizing:border-box;float:left;width:50%;color:#f75934;}
+.orders_body li .ofd a:first-child{border-right:1px solid #eee;color:#999;}
+/*订单详情*/
+.orders_info{margin-bottom:20px;background:#fff;}
+.orders_info h2{padding:0 30px;height:70px;line-height:70px;font-size:28px;border-bottom:1px solid #eee;color:#8bc53f;}
+.orders_info ul{padding:0 30px 20px 30px;}
+.orders_info li{height:70px;line-height:70px;font-size:26px;border-bottom:1px solid #eee;}
+.orders_info li span{float:left;padding-right:20px;min-width:120px;color:#999;}
+.orders_info li a{color:#0071bb;}
+/*新增出行人*/
+.traveler{padding:50px 30px;}
+.add_traveler{display:block;height:80px;line-height:80px;border-radius:10px;text-align:center;background:#8bc53f;}
+.add_traveler i{display:inline-block;padding-left:40px;font-size:34px;color:#fff;background:url(../images/add_icon.png) no-repeat left center / 30px auto;}
+/*添加出行人表单 提交业务合作表单*/
+.traveler_form{}
+.traveler_form h3{margin-top:20px;padding:0 30px;height:80px;line-height:80px;overflow:hidden;color:#666;font-weight:bold;}
+.traveler_form h3 i{color:#8bc53f;}
+.traveler_form h3 span{float:right;padding-left:30px;color:#8bc53f;background:url(../images/add_icon_green.png) no-repeat left center / 20px auto;}
+.traveler_form .cont{padding:30px;}
+.traveler_form .cont p{line-height:45px;font-size:28px;color:#666;}
+.traveler_form ul{border-top:1px solid #eee;}
+.traveler_form li{position:relative;height:80px;font-size:28px;background:#fff;border-bottom:1px solid #eee;}
+.traveler_form li .cname{position:absolute;left:0;top:0;padding-left:30px;width:200px;height:80px;line-height:80px;color:#999;}
+.traveler_form li .cinput{padding:8px 0;width:100%;height:64px;line-height:64px;border:none;background:#fff;vertical-align:middle;font-size:28px;text-indent:240px;color:#999;}
+.traveler_form li .smsput{position:absolute;top:15px;right:30px;border:none;width:120px;height:50px;line-height:50px;text-align:center;color:#fff;font-size:28px;border-radius:10px;background:#8bc53f;}/*获取验证码*/
+.traveler_form li .cbg{background:url(../images/graymore.png) no-repeat right 30px center / 15px auto;}
+.traveler_form li .radOut{padding-left:240px;line-height:80px;}
+.traveler_form li .radOut label{color:#999;}
+.traveler_form li .radOut input[type="radio"]{margin-right:20px;}
+.traveler_form li .cselect{box-sizing:border-box;padding:8px 30px 8px 240px;width:100%;height:80px;}/*下拉选择*/
+.traveler_form li .cselect select{margin:0;padding:0;width:100%;height:64px;line-height:64px;border:none;background:none;appearance:none;-moz-appearance:none;-webkit-appearance:none;font-size:28px;color:#c8c8c8;}
+.traveler_form li .cselect option{color:#444;}
+.traveler_form li .remove{line-height:80px;color:#8bc53f;text-align:center;}/*删除*/
+.traveler_form li.pic{height:130px;}/*头像*/
+.traveler_form li.pic .cname{top:20px;color:#666;font-weight:bold;}
+.traveler_form li.pic .cr{box-sizing:border-box;padding:25px 30px 25px 240px;width:100%;height:130px;overflow:hidden;background:url(../images/graymore.png) no-repeat right 30px center / 15px auto;}
+.traveler_form li.pic .cr .avatar{float:right;margin-right:54px;width:80px;height:80px;}
+.traveler_form li.area{height:240px;}/*多行文本输入框*/
+.traveler_form li.area textarea{box-sizing:border-box;padding:26px 0 14px 240px;width:100%;height:240px;line-height:40px;border:none;background:#fff;vertical-align:middle;font-size:28px;color:#999;}
+.traveler_form li.btn{padding:50px 30px;height:120px;text-align:center;border:none;background:transparent;}/*提交按钮*/
+.traveler_form li.btn .btninput{padding:0;border:none;width:100%;height:80px;line-height:80px;background:#8bc53f;color:#fff;vertical-align:middle;cursor:pointer;font-size:28px;border-radius:10px;}
+.traveler_form li.btn p{line-height:40px;font-size:22px;}
+/*出行人列表*/
+.traveler_list h2{padding:0 30px;height:80px;line-height:80px;background:#EAEAEA;border-bottom:1px solid #eee}
+.traveler_list li{box-sizing:border-box;padding:0 30px;width:100%;height:80px;line-height:80px;border-bottom:1px solid #eee;overflow:hidden;background:#fff;}
+.traveler_list li span{float:left;color:#8bc53f;}
+.traveler_list li span.rm{width:30%;}
+.traveler_list li span.fl{width:20%;}
+.traveler_list li span.hm{width:50%;}
+/*选择城市*/
+.dcity{display:none;position:absolute;top:171px;right:0;left:0;width:750px;background:#fff;}
+.dcsearch{position:fixed;top:80px;right:0;left:0;padding:10px 0;width:750px;height:70px;border-bottom:1px solid #ddd;background:#f8f8f8;z-index:12;}
+.dcsearch i{float:left;margin-left:30px;line-height:70px;color:#8bc53f;}
+.dcsearch input.dcput{margin-left:60px;padding:0 30px;width:400px;height:68px;border:1px solid #ccc;border-radius:34px;vertical-align:middle;font-size:28px;}
+.dca{position:fixed;top:171px;right:50%;margin-right:-375px;width:60px;height:1400px;background:#fff;z-index:13;}
+.dca li{line-height:50px;text-align:center;}
+.dca li.on{background:#fff;}
+.dclist{margin-right:60px;}
+.dclist h2{padding:0 30px;height:50px;line-height:50px;font-size:24px;background:#f9f9f9;border-bottom:1px solid #f0f0f0}
+.dclist li{padding:0 30px;height:80px;line-height:80px;border-bottom:1px solid #eee}
+/*选择学校*/
+.dschool{display:none;position:absolute;top:171px;right:0;left:0;width:750px;background:#fff;}
+.dsa{position:fixed;top:171px;left:50%;margin-left:-375px;width:120px;height:1400px;border-right:1px solid #ddd;background:#f8f8f8;z-index:13;}
+.dsa li{line-height:90px;border-bottom:1px solid #ddd;text-align:center;}
+.dsa li.on{background:#fff;}
+.dslist{margin-left:121px;}
+.dslist h2{padding:0 30px;height:50px;line-height:50px;font-size:24px;background:#f9f9f9;border-bottom:1px solid #f0f0f0}
+.dslist li{padding:0 30px;height:80px;line-height:80px;border-bottom:1px solid #eee}
+/*关于我们*/
+.aboutUs{padding:30px;line-height:180%;text-align:left;font-size:28px;color:#999;overflow-x:hidden}
+.aboutUs p{padding:15px 0;}
+
+
+
+

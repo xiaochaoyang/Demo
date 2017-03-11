@@ -1,0 +1,27 @@
+/* 一级分类 手机触屏滑动导航 */
+.classifyOut{position:relative;padding:0 10px;height:84px;background:#fff;border-bottom:1px solid #ddd;z-index:10;}
+.classifyOut .bartitle{display:none;}
+.classifyOut .classify{overflow-x:auto;overflow-y:hidden;}
+.classifyOut .classify ul{display:flex;}
+.classifyOut .classify li{padding:0 20px 4px 20px;line-height:80px;text-align:center;flex-shrink:0;}
+.classifyOut .classify li.here{padding:0 20px;border-bottom:4px solid #8bc53f;color:#8bc53f;}
+.classifyOut .classify li.here a{color:#8bc53f;}
+.classifyOut .tabmore{position:absolute;top:0;right:0;padding-right:30px;width:80px;height:80px;line-height:80px;cursor:pointer;background:#fff url(../images/ic_drop.png) no-repeat center center / 36px auto;opacity:0.8;}
+.classifyOut .tabmore1{display:block;}
+.classifyOut .tabmore2{display:none;}
+.classifyOutOpen .bartitle{display:block;padding:0 20px;line-height:80px;}
+.classifyOutOpen .classify{position:absolute;top:80px;left:0;background:#fff;}
+.classifyOutOpen .classify ul{display:block;box-sizing:border-box;width:100%;overflow:hidden;border-top:1px solid #eee;}
+.classifyOutOpen .classify li{float:left;box-sizing:border-box;width:25%;margin-top:-1px;margin-right:-1px;padding:0 0 4px 0;border:1px solid #eee;flex-shrink:1;}
+.classifyOutOpen .classify li.here{padding:0;}
+.classifyOutOpen .classify li a{display:block;}
+.classifyOutOpen .tabmore{background-image:url(../images/ic_drop2.png);opacity:1;}
+.classifyOutOpen .tabmore1{display:none;}
+.classifyOutOpen .tabmore2{display:block;}
+.guding{position:fixed;top:0px;left:0;right:0;width:750px;z-index:99;}
+/* 二级分类 */
+.hotword{margin-top:20px;margin-bottom:20px;padding:0 30px;background:#fff;border-top:1px solid #eee;border-bottom:1px solid #eee;}
+.hotword ul{width:100%;overflow:hidden;margin-bottom:-1px;}
+.hotword li{float:left;margin-right:-2px;padding:5px 0;width:232px;height:70px;line-height:70px;border-bottom:1px solid #eee;font-size:26px;text-align:center;}
+.hotword li a{display:block;border-right:2px dotted #eee;}
+
