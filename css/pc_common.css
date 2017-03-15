@@ -47,7 +47,7 @@ a:hover{color:#0CC757;text-decoration:underline;}
 /* 主体 */
 .main{margin-top:20px;width:1200px;}
 .main_left{float:left;margin-right:-260px;width:100%;}
-.main_left_nei{margin-right:290px;}
+.main_left_nei{margin-right:20px;}
 .main_right{position:relative;float:right;width:260px;}
 /* 列表 */
 .list{padding:30px 0;}
