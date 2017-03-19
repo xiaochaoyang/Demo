@@ -5,7 +5,7 @@ function switchtab(d){
 		if(d==i){
 			$(".dq").animate({left:String(i*80)+'px'});
 			$("#tab_label_"+i).addClass("on");
-			$("#tab_cont_"+i).css("z-index","1");
+
 			$("#tab_cont_"+i).animate({opacity: 1},1000);
 		}else{
 			$("#tab_label_"+i).removeClass("on");

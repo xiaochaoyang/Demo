@@ -5,14 +5,14 @@ div{margin:0 auto;padding:0;text-align:left;}
 form,input,textarea,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dt,dd{margin:0;padding:0;border:none;outline:none;}
 h1,h2,h3,h4,h5,h6{font-weight:normal;}
 input[type="submit"],input[type="reset"],input[type="button"],button {-webkit-appearance: none;}
-ul,ol,dl{list-style-type:none}
+ul,ol,dl{list-style-type:none;}
 em,strong,i,cite{font-style:normal}
 img{border:none;vertical-align:middle;}
 a:link,a:visited,a:active{color:#323232;text-decoration:none;outline:none;}
 a:hover{color:#0CC757;text-decoration:underline;}
 .clearfix{*zoom:1;}
 .clearfix:after{display:block;overflow:hidden;clear:both;height:0;visibility:hidden;content:".";}
-.title{height:40px;line-height:40px;border-bottom:2px solid #E2E2E2;font-size:20px;font-weight:bold;color:#545454;}
+.title{height:40px;line-height:40px;border-bottom:2px solid #E2E2E2;font-size:20px;font-weight:bold;color:#545454;background-color: orange;}
 .title span{color:#0cc757;}
 /* header */
 .header_box{border-bottom:3px solid #f0f0f0;width:100%;min-width:1200px;}
@@ -67,7 +67,7 @@ a:hover{color:#0CC757;text-decoration:underline;}
 .list li:hover{background:#F5F5F5;}
 .list li:hover .pic img{transform:scale(1.2);}/* hover到容器上时图片放大1.2倍 */
 .list .more{height:50px;line-height:50px;text-align:center;}
-.list .more a{display:block;font-size:20px;color:#0cc757;}
+.list .more a{display:block;font-size:20px;color:#0cc757;width: 200px;position: relative;float: left;margin-left: -100px;;left: 50%;}
 .list .page{padding:10px 0;height:30px;line-height:30px;text-align:center;font-size:14px;}
 .list .page a{display:inline-block;margin:0 5px;padding:0 10px;color:#969696;}
 .list .page a.next{border-radius:3px;color:#fff;background:#0CC757;}

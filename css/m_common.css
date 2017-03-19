@@ -2,7 +2,7 @@
 body{margin:0 auto;padding:0;text-align:center;width:750px;color:#333;font-size:30px;font-family:San Francisco,Helvetica,Arial,sans-serif;background:#f8f8f8;}
 article, aside, figure, figcaption, footer, header, hgroup, nav, section,details,summary{display: block;margin:0 auto;padding:0;}
 div {margin:0 auto;padding:0;text-align:left;}
-form,input,textarea,h1,h2,h3,h4,h5,h6,p,ul,dl,dt,dd{margin:0;padding:0;outline:none;}
+form,input,textarea,h1,h2,h3,h4,h5,h6,p,ul,dl,dt,dd{margin:0;padding:0;}//outline:none;}
 h1,h2,h3,h4,h5,h6{font-size:30px;font-weight:normal;}
 input[type="submit"],input[type="reset"],input[type="button"],button {-webkit-appearance: none;}
 ul,ol,dl{list-style-type:none}
